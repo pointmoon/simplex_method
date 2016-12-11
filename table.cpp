@@ -13,7 +13,7 @@ float search_lambda(float **array, int *str, int *stb){
 void first_conversion(float **array, float *temp_lambda, int *K, int *str, int *stb){
     for (register int i=0; i<*K; i++){
         if (i == *stb){
-            continue;
+            continue;//
         }
         else{
            array[*str][i] *= *temp_lambda;
